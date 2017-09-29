@@ -1,0 +1,49 @@
+{
+  "name": "electron-react-starterkit",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "webpack-dev-server",
+    "start": "electron -r babel-register ./src/main.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "electron": "^1.6.10",
+    "electron-builder": "^19.8.0",
+    "electron-devtools-installer": "^2.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb": "^15.0.1",
+    "eslint-formatter-pretty": "^1.1.0",
+    "eslint-import-resolver-webpack": "^0.8.3",
+    "eslint-plugin-compat": "^1.0.4",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "5.0.3",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-react": "^7.1.0",
+    "express": "^4.15.3",
+    "html-webpack-plugin": "^2.29.0",
+    "minimist": "^1.2.0",
+    "react-addons-test-utils": "^15.6.0",
+    "style-loader": "^0.18.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^3.0.0",
+    "webpack-bundle-analyzer": "^2.8.2",
+    "webpack-dev-server": "^2.5.0"
+  },
+  "dependencies": {
+    "devtron": "^1.4.0",
+    "electron-debug": "^1.2.0",
+    "history": "^4.6.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "source-map-support": "^0.4.15"
+  }
+}
